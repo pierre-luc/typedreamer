@@ -1,0 +1,22 @@
+{
+  "name": "typedreamer",
+  "description": "The easiest plugin for web typography.",
+  "main": "gulpfile.js",
+  "authors": [
+    "Pierre-Luc BLOT"
+  ],
+  "license": "ISC",
+  "keywords": ["typography", "easiest", "plugin", "javascript", "js", "jquery"],
+  "moduleType": [],
+  "homepage": "https://github.com/pierre-luc/typedreamer",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+  }
+}

@@ -1,8 +1,5 @@
 (function(){
 	var Typedreamer = function(element, text, options){
-  console.log({
-  text: text, options: options
-  });
     var breakable = this.breakable = false;
     this.element = element;
     this.text = text;
