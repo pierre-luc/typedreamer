@@ -2,21 +2,19 @@
 The better plugin for radical web typography.
 
 # Online Demo
-[Click here](https://jsfiddle.net/6gkaxvwL/18)
+[Click here to try example](https://jsfiddle.net/6gkaxvwL/18)
 
-## Example
+# Usage
 
-```html
-<div class="textA"></div>
-<div class="textB"></div>
-
-<p class="textB" data-typedream-me data-breakable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa aliquid adipisci, unde fugiat aperiam odit? Suscipit dolores reiciendis aliquid accusamus at similique commodi animi dolore quia, omnis, illum saepe esse!</p>
-
+## JS Pure
+```js
+var options = {
+  breakable: true; // false => insert &nbsp;
+};
+new Typedreamer(element, text, options);
 ```
 
+## jQuery
 ```js
-$(".textA").typedreamer("Hello WOrld !");
-$(".textB").typedreamer("Hello WOrld !", {
-	breakable: true
-});
+$(element).typedreamer(text, options); // options is not required
 ```
