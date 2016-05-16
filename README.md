@@ -1,5 +1,11 @@
 # typedreamer
-The better plugin for radical web typography.
+The easiest plugin for web typography.
+
+# Installation
+
+```bash
+bower install typedreamer
+```
 
 # Online Demo
 [Click here to try example](https://jsfiddle.net/6gkaxvwL/18)
