@@ -7,8 +7,13 @@ The easiest plugin for web typography.
 bower install typedreamer
 ```
 
-# Online Demo
+# Online Demos
+
+## JS
 [Click here to try example](https://jsfiddle.net/6gkaxvwL/18)
+
+## PHP
+[Click here to try example](http://sandbox.onlinephpfunctions.com/code/2988b76bd1f5c9a59ce9f5b757816aab30816173)
 
 # Usage
 
