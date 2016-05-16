@@ -24,3 +24,8 @@ new Typedreamer(element, text, options);
 ```js
 $(element).typedreamer(text, options); // options is not required
 ```
+
+## PHP
+```php
+Typedreamer::apply($text, $options);
+```
