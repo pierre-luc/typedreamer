@@ -8,6 +8,8 @@
     	breakable = typeof options.breakable !== "undefined" && options.breakable;
     }
 
+		element.innerHTML = '';
+
     var words = text.split(' ');
     words.forEach(function(w, k){
     	var word = document.createElement('span');
