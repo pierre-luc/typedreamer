@@ -32,5 +32,5 @@ $(element).typedreamer(text, options); // options is not required
 
 ## PHP
 ```php
-Typedreamer::apply($text, $options);
+<?php echo Typedreamer::apply($text, $options);?>
 ```
