@@ -5,14 +5,18 @@ The easiest plugin for web typography.
 
 ```bash
 bower install typedreamer
+
+or
+
+npm install typedreamer
 ```
 
 # Online Demos
 
 ## JS
-[Click here to try example](https://jsfiddle.net/6gkaxvwL/18)
+[Click here to try example](https://jsfiddle.net/6gkaxvwL/21)
 
-## PHP
+## PHP (no recursion)
 [Click here to try example](http://sandbox.onlinephpfunctions.com/code/2988b76bd1f5c9a59ce9f5b757816aab30816173)
 
 # Usage
