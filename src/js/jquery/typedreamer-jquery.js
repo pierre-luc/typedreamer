@@ -14,7 +14,7 @@
 			}
 		});
 		$('*[data-typedream-me]').each(function(){
-			var text = $(this).text();
+			var text = $(this).html();
 			$(this).html('');
 			$(this).typedreamer(text, {
 				breakable: typeof $(this).attr('data-breakable') !== "undefined"
